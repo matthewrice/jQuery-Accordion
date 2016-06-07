@@ -1,0 +1,72 @@
+/* Bootstrap Variables */
+$icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+/* Import Bootstrap */
+@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
+
+.accordion{
+  border: 2px solid rgb(17, 17, 18);
+  margin: 0 auto;
+  padding: 0;
+  margin-top: 28px;
+  list-style: none;
+}
+
+.my-heading{
+  background-color: rgb(90, 92, 97);
+  margin: 0 auto;
+  font-size: 18px;
+  color: rgb(250, 251, 250);
+  padding: 10px;
+
+  i{
+    padding-right: 15px;
+  }
+}
+
+.my-heading:hover {
+    background-color: rgb(134, 172, 51);
+    color: rgb(62, 87, 6);
+}
+
+.number1{
+  margin-left: 190px;
+  border-radius: 37%;
+  background-color: rgb(63, 65, 69);
+  color: rgb(250, 251, 250);
+  padding: 2px 10px 2px 10px;
+  font-size: 16px;
+}
+
+.number2{
+  margin-left: 230px;
+  border-radius: 37%;
+  background-color: rgb(63, 65, 69);
+  color: rgb(250, 251, 250);
+  padding: 2px 10px 2px 10px;
+  font-size: 16px;
+}
+
+.number3{
+  margin-left: 215px;
+  border-radius: 37%;
+  background-color: rgb(63, 65, 69);
+  color: rgb(250, 251, 250);
+  padding: 2px 10px 2px 10px;
+  font-size: 16px;
+}
+
+.sub-folders{
+  list-style: none;
+  background-color: rgb(229, 229, 229);
+  padding: 0;
+
+  li{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(121, 121, 121);
+    border: 1px solid rgb(201, 201, 201);
+    padding: 6px 8px 6px 40px;  /*top, right, bottom, left*/
+  }
+}
