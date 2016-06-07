@@ -5819,9 +5819,7 @@ button.close {
   list-style: none; }
 
 .my-heading {
-  background: linear-gradient(top, #696b70, #505256);
-  background: -webkit-linear-gradient(top, #696b70, #505256);
-  background: -moz-linear-gradient(top, #696b70, #505256);
+  background-color: #5a5c61;
   margin: 0 auto;
   font-size: 18px;
   color: #fafbfa;
@@ -5830,9 +5828,7 @@ button.close {
     padding-right: 15px; }
 
 .my-heading:hover {
-  background: linear-gradient(top, #86ac33, #628b07);
-  background: -webkit-linear-gradient(top, #86ac33, #628b07);
-  background: -moz-linear-gradient(top, #86ac33, #628b07);
+  background-color: #86ac33;
   color: #3e5706; }
 
 .number1 {

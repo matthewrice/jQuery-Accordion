@@ -14,7 +14,9 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
 }
 
 .my-heading{
-  background-color: rgb(90, 92, 97);
+  background: linear-gradient(top, rgb(105, 107, 112), rgb(80, 82, 86));
+  background: -webkit-linear-gradient(top, rgb(105, 107, 112), rgb(80, 82, 86));
+  background: -moz-linear-gradient(top, rgb(105, 107, 112), rgb(80, 82, 86));
   margin: 0 auto;
   font-size: 18px;
   color: rgb(250, 251, 250);
@@ -26,7 +28,9 @@ $icon-font-path: "../../bower_components/bootstrap-sass/assets/fonts/bootstrap/"
 }
 
 .my-heading:hover {
-    background-color: rgb(134, 172, 51);
+    background: linear-gradient(top, rgb(134, 172, 51), rgb(98, 139, 7));
+    background: -webkit-linear-gradient(top, rgb(134, 172, 51), rgb(98, 139, 7));
+    background: -moz-linear-gradient(top, rgb(134, 172, 51), rgb(98, 139, 7));
     color: rgb(62, 87, 6);
 }
 
